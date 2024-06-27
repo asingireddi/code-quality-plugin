@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.42.0" timestamp="2024-06-27T01:28:53.881">
+<file name="C:\Users\asingireddi\Downloads\miracle-code-quality-plugin\miracle-code-quality-plugin\miracle-code-quality-plugin\src\main\java\com\mss\plugins\controller\SampleController.java">
+<violation beginline="7" endline="7" begincolumn="1" endcolumn="19" rule="UnnecessaryImport" ruleset="Code Style" package="com.mss.plugins.controller" class="SampleController" externalInfoUrl="https://pmd.github.io/pmd-6.42.0/pmd_rules_java_codestyle.html#unnecessaryimport" priority="4">
+Unused import 'java.util.*'
+</violation>
+<violation beginline="12" endline="12" begincolumn="14" endcolumn="27" rule="UnusedPrivateField" ruleset="Best Practices" package="com.mss.plugins.controller" class="SampleController" variable="MemberVariable" externalInfoUrl="https://pmd.github.io/pmd-6.42.0/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'MemberVariable'.
+</violation>
+<violation beginline="16" endline="16" begincolumn="13" endcolumn="30" rule="UnusedLocalVariable" ruleset="Best Practices" package="com.mss.plugins.controller" class="SampleController" method="TestMethod" variable="LocalFinalVariable" externalInfoUrl="https://pmd.github.io/pmd-6.42.0/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'LocalFinalVariable'.
+</violation>
+<violation beginline="17" endline="17" begincolumn="7" endcolumn="19" rule="UnusedLocalVariable" ruleset="Best Practices" package="com.mss.plugins.controller" class="SampleController" method="TestMethod" variable="localVariable" externalInfoUrl="https://pmd.github.io/pmd-6.42.0/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'localVariable'.
+</violation>
+</file>
+</pmd>
