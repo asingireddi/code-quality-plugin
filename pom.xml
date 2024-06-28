@@ -14,16 +14,23 @@
 	<description>Sample Project for Checkstyle and PMD</description>
 	<url />
 	<licenses>
-		<license />
-	</licenses>
-	<developers>
-		<developer />
-	</developers>
+	        <license>
+	            <name>The Apache Software License, Version 2.0</name>
+	            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+	        </license>
+	    </licenses>
+	
+	    <developers>
+	        <developer>
+	            <id>asingireddi</id>
+	            <name>Asha</name>
+	            <email>your.email@example.com</email>
+	        </developer>
+	    </developers>
 	<scm>
-		<connection />
-		<developerConnection />
-		<tag />
-		<url />
+	    <connection>scm:git:git://github.com/asingireddi/code-quality-plugin.git</connection>
+	    <developerConnection>scm:git:ssh://github.com/asingireddi/code-quality-plugin.git</developerConnection>
+	    <url>http://github.com/asingireddi/code-quality-plugin</url>
 	</scm>
 	<properties>
 		<java.version>17</java.version>
@@ -31,13 +38,12 @@
 		<maven-pmd-plugin.version>3.16.0</maven-pmd-plugin.version>
 	</properties>
 		<distributionManagement>
-		<repository>
-			<id>github</id>
-			<name>Sample Deployment for the Maven Package</name>
-			<url>https://maven.pkg.github.com/asingireddi/code-quality-plugin</url>
-			<uniqueVersion>false</uniqueVersion>
-		</repository>
-	</distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/asingireddi/code-quality-plugin</url>
+        </repository>
+    </distributionManagement>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
